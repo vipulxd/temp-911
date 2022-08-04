@@ -1,0 +1,92 @@
+.footer-container{
+
+    width:100vw;
+    position: fixed;
+    bottom:0;
+
+
+}
+.ft-wrapper{
+    height:70px;
+    background: #42a270;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.item-info{
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    width:150px;
+    background-color: rgba(40, 44, 52, 0.4);
+    border-radius: 4px;
+}
+.login-cnt{
+    min-width:190px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-login{
+    color:wheat;
+    font-size: large;
+}
+.itemsinfo{
+    display: flex;
+    flex-direction: column;
+}
+.qty{
+    color: white;
+    font-size: small;
+}
+.item-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.c-p-wrapper{
+    background-color: white;
+min-height: 100px;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding:10px;
+    margin-right:10px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.37);
+    background-color: rgba(128, 128, 128, 0.38);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.wrapper{
+    padding:14px;
+
+}
+.listheader{
+    padding:12px 1px ;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    justify-items: center;
+
+}
+.t-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding:0 14px;
+}
+.btn-login{
+margin:10px;
+
+}
+.btn-login button{
+    background: #42a270;
+    color: white;
+    width:60px;
+    border : none;
+    border-radius: 2px;
+    padding:8px;
+}
